@@ -14,7 +14,6 @@ export default function RandomColor() {
   function generateHexColor() {
     for (let j = 0; j < 6; j++) {
       hexColor += hex[utility(hex.length)];
-      console.log("hex");
     }
     return setColor(hexColor);
   }

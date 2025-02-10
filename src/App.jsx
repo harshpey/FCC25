@@ -4,11 +4,12 @@ import RandomColor from './components/random-color'
 import StarRating from './components/star-rating'
 import ImageSlider from './components/image-slider'
 import LoadMoreData from './components/load-more'
+import LoadData from './components/LoadData/LoadData'
 
 const App = () => {
   return (
     <div>
-    <Accordian/>
+    {/* <Accordian/> */}
     {/* <RandomColor/> */}
     {/* <StarRating/> */}
     {/* <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={'5'}/> */}

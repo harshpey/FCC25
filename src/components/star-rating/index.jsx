@@ -11,7 +11,7 @@ export default function StarRating({ numStars = 5 }) {
   }
 
   function onMouseEnter(getCurrentIndex) {
-    setHover(getCurrentIndex);
+      setHover(getCurrentIndex);
   }
 
   function onMouseLeave() {

@@ -23,3 +23,10 @@
     width: 200px;
     height: 200px;
 }
+
+button{
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    margin: 0 auto;
+}

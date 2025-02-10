@@ -16,16 +16,12 @@ export default function LoadMoreData() {
         }`
       );
       const result = await response.json();
-      
 
       if (result && result.products && result.products.length) {
         setProduct((prevData) => [...prevData, ...result.products]);
         setLoading(false);
       }
-
-      console.log(products);
     } catch (e) {
-      console.log(e);
       setLoading(false);
     }
   }
@@ -39,7 +35,7 @@ export default function LoadMoreData() {
   }, [products]);
 
   if (loading) {
-    return <div>Loading data ! Please wait.</div>;
+    return <div>Loading data! Please wait.</div>;
   }
 
   return (
@@ -58,7 +54,7 @@ export default function LoadMoreData() {
         <button disabled={disableButton} onClick={() => setCount(count + 1)}>
           Load More Products
         </button>
-        {disableButton ? <p>You have reached to 100 products</p> : null}
+        {disableButton ? <p>You have reached to 100 products.</p> : null}
       </div>
     </div>
   );
