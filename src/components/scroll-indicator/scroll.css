@@ -1,0 +1,22 @@
+.scroll-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  gap: 2rem;
+}
+
+.progress-container{
+    width: 100%;
+    background: rgb(247, 238, 227);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.current-progress-container{
+    height: 15px;
+    background: rgb(221, 171, 64);
+    width: 0%;
+}
