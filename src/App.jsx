@@ -10,6 +10,7 @@ import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import TabTest from "./components/tabs/tab-test";
 import ModalTest from "./components/custom-model/modal-test";
 import SearchAutocomplete from "./components/search-autocomplete";
+import Timer from "./components/timer/Timer";
 const App = () => {
   return (
     <div>
@@ -24,7 +25,8 @@ const App = () => {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
       {/* <TabTest/> */}
       {/* <ModalTest/> */}
-      <SearchAutocomplete/>
+      {/* <SearchAutocomplete/> */}
+      <Timer/>
     </div>
   );
 };
