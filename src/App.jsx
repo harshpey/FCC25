@@ -13,6 +13,7 @@ import SearchAutocomplete from "./components/search-autocomplete";
 import Timer from "./components/timer/Timer";
 import CustomUrl from "./components/custom-url/CustomUrl";
 import Throttle from "./components/throttle/Throttle";
+import DebouncingDemo from "./components/debouncing/DebouncingDemo";
 const App = () => {
   return (
     <div>
@@ -30,7 +31,8 @@ const App = () => {
       {/* <SearchAutocomplete/> */}
       {/* <Timer/> */}
       {/* <CustomUrl/> */}
-      <Throttle/>
+      {/* <Throttle/> */}
+      <DebouncingDemo/>
     </div>
   );
 };
