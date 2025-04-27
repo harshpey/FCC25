@@ -11,6 +11,8 @@ import TabTest from "./components/tabs/tab-test";
 import ModalTest from "./components/custom-model/modal-test";
 import SearchAutocomplete from "./components/search-autocomplete";
 import Timer from "./components/timer/Timer";
+import CustomUrl from "./components/custom-url/CustomUrl";
+import Throttle from "./components/throttle/Throttle";
 const App = () => {
   return (
     <div>
@@ -26,7 +28,9 @@ const App = () => {
       {/* <TabTest/> */}
       {/* <ModalTest/> */}
       {/* <SearchAutocomplete/> */}
-      <Timer/>
+      {/* <Timer/> */}
+      {/* <CustomUrl/> */}
+      <Throttle/>
     </div>
   );
 };
